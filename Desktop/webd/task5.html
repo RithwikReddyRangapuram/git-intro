@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .carousel-item img {
+    height: 70vh;
+    object-fit: contain;
+    } 
+      
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top " style=" background-color: rgb(7, 144, 144);z-index: 1000;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Furniture</a>
+        </li>
+        <ul class="navbar-nav me-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="#">Sofas & Seating</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#">Mattresses</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#">Home Decor</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#">Lamps & Lightings</a>
+    </li>
+
+</ul>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleDark" class="carousel carousel-dark slide   ">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://images.woodenstreet.de/image/data/website-sale/SUMMER26/home_page/2.png" class="d-block w-100" alt="1">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://blog.woodenstreet.com/images/data/image_upload/1775023202veda-collection.jpg" class="d-block w-100" alt="2">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.woodenstreet.de/image/data/ws-nextjs/store-location/bedroom-m.jpg" class="d-block w-100" alt="3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<div class="container mt-4">
+    <div class="row g-4">
+        
+        <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                <img src="https://images.woodenstreet.de/image/data/website-sale/SUMMER26/home_page/2.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Luxury Bedroom Collection</h5>
+                    <p class="card-text">
+                        Upgrade your bedroom with our elegant collection of premium beds, stylish furniture, and modern interiors designed for ultimate comfort and relaxation.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go Somewhere</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+                <img src="https://blog.woodenstreet.com/images/data/image_upload/1775023202veda-collection.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Premium Wooden Bedroom</h5>
+
+<p class="card-text">
+Bring warmth and elegance to your home with handcrafted wooden bedroom furniture, combining timeless beauty with lasting durability.
+</p>
+                    <a href="#" class="btn btn-primary">Go Somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+                <img src="https://images.woodenstreet.de/image/data/ws-nextjs/store-location/bedroom-m.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Contemporary Bed Designs</h5>
+
+<p class="card-text">
+Discover beautifully crafted beds featuring modern designs, premium materials, and exceptional comfort to create your perfect sleeping space.
+</p>
+                    <a href="#" class="btn btn-primary">Go Somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+                <img src="https://www.furnishka.com/cdn/shop/files/Website_desktop_banner_14.webp?v=1772107067&width=1200" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Luxury Bedroom Collection</h5>
+                    <p class="card-text">
+                        Upgrade your bedroom with our elegant collection of premium beds, stylish furniture, and modern interiors designed for ultimate comfort and relaxation.
+                    </p>
+                    <a href="#" class="btn btn-primary"
+   data-bs-toggle="modal"
+   data-bs-target="#bedroomModal">
+   View Details
+</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+                <img src="https://furnisquare.com/cdn/shop/files/ChatGPT_Image_Jun_18_2026_12_14_57_PM.png?v=1781765136&width=2000" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Premium Wooden Bedroom</h5>
+
+<p class="card-text">
+Bring warmth and elegance to your home with handcrafted wooden bedroom furniture, combining timeless beauty with lasting durability.
+</p>
+                    <a href="#" class="btn btn-primary">Go Somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+                <img src="https://images.woodenstreet.de/wsnew2024/static-webmedia/images/images/furniture-new/beds-buying-guide.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Premium Wooden Bedroom</h5>
+
+<p class="card-text">
+Bring warmth and elegance to your home with handcrafted wooden bedroom furniture, combining timeless beauty with lasting durability.
+</p>
+                    <a href="#" class="btn btn-primary"
+   data-bs-toggle="modal"
+   data-bs-target="#bedroomModal">
+   View Details
+</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal fade" id="bedroomModal" tabindex="-1">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+                    Premium Wooden Bedroom
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <img 
+                src="https://blog.woodenstreet.com/images/data/image_upload/1775023202veda-collection.jpg"
+                class="img-fluid rounded mb-3">
+
+                <p>
+                    Experience luxury and elegance with our handcrafted
+                    wooden bedroom collection...
+                </p>
+
+        <p>
+          Experience luxury and elegance with our handcrafted wooden bedroom
+          collection. Designed using premium-quality wood, every piece combines
+          durability, comfort, and timeless beauty.
+        </p>
+
+        <p>
+          This collection includes a beautifully designed wooden bed, matching
+          bedside tables, spacious wardrobes, and elegant décor elements that
+          create a warm and relaxing atmosphere.
+        </p>
+
+        <p>
+          Perfect for modern and traditional homes alike, our furniture is built
+          with attention to detail and finished to last for years while enhancing
+          the beauty of your bedroom.
+        </p>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+                    Close
+                </button>
+
+                <button class="btn btn-primary">
+                    Buy Now
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+ 
+<div  class="container p-3 mt-3 mb-2 bg-primary-subtle text-primary-emphasis">
+    <h2 class="text-center mb-4">
+    Contact Me
+</h2>
+    <div class="row p-3">
+        
+        <div class=" col-sm-12 col-md-12 col-lg-6 p-2">
+            <input type="text"
+       class="form-control"
+       placeholder="      First Name">
+        </div>
+        <div class=" col-sm-12 col-md-12 col-lg-6 p-2">
+            <input type="email"
+       class="form-control"
+       placeholder="      Email">
+        </div>
+        <div class=" col-sm-12 col-md-12 col-lg-6 p-2">
+            <input type="text"
+       class="form-control"
+       placeholder="      Home address">
+        </div>
+        <div class=" col-sm-12 col-md-12 col-lg-6 p-2">
+            <input type="number"
+       class="form-control"
+       placeholder="      Pincode">
+        </div>
+        <div class=" col p-2">
+            <input type="text"
+       class="form-control"
+       placeholder="      Message">
+        </div>
+
+    </div>
+    <div class="text-center mb-4">
+        <button type="button" class="btn btn-info btn-lg">Submit</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
